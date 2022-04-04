@@ -1,0 +1,10 @@
+name: caa-tutorial
+channels:
+    - conda-forge
+    - anaconda
+dependencies:
+  - jupyter
+  - numpy
+  - pandas
+  - web3
+  - coloredlogs
