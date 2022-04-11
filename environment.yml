@@ -8,3 +8,5 @@ dependencies:
   - pandas
   - web3
   - coloredlogs
+  - tqdm
+  - joblib
