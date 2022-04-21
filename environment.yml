@@ -11,3 +11,5 @@ dependencies:
   - joblib
   - networkx
   - pyvis
+  - seaborn
+  - matplotlib

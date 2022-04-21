@@ -6,11 +6,22 @@ Additional information on the [tutorial website](https://cryptoassetanalytics.ne
 
 # Program
 
-Here be a summary, possible bullet points.
+This tutorial consists of two subsequent parts and several exercises, which are implemented as Jupyter notebooks:
+
+**Analyzing UTXO-Model Ledgers**
+
+** 01_Inspect_BTC_address.ipynb: This notebook demonstrates how-to inspect the statistical properties (e.g., balance, total_received) and the payment relations of a single Bitcoin address.
+
+** 02_Sextortion_Study.ipynb: This notebook demonstrates how to investigate Bitcoin addresses that received funds from sextortion spam victims. The data for this demo is taken from our study [Spams meet Cryptocurrencies: Sextortion in the Bitcoin Ecosystem](https://arxiv.org/abs/1908.01051).
+
+**Analyzing Account-Model Ledgers**
+
+TODO: Friedhelm
+
 
 # Slides and Recording
 
-Slides and a recording of the tutorial are available at ...
+Slides and a recording of the tutorial are available at ... 
 
 # Notebooks
 
@@ -18,7 +29,6 @@ The tutorial will make use of several notebooks, which are available in this rep
 You can run the notebooks locally, as follows:
 
 Setup a Python environment:
-
 
     conda env create -f environment.yml
     conda activate caa-tutorial
