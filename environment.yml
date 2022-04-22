@@ -6,10 +6,9 @@ dependencies:
   - jupyter
   - numpy
   - pandas
+  - dask
   - web3
   - tqdm
-  - joblib
   - networkx
-  - pyvis
   - seaborn
   - matplotlib

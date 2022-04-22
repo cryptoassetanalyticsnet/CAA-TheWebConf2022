@@ -16,29 +16,41 @@ This tutorial consists of two subsequent parts and several exercises, which are 
 
 **Analyzing Account-Model Ledgers**
 
-TODO: Friedhelm
+** 03_JSNORPC_web3py_experiments.ipynb: This notebook demonstrates how to access Ethereum data (blocks, transactions) through a JSON/RPC endpoint of a full node (raw and with web3py).
 
+** 04_Extracting_token_transfers_and_airdrop_analysis.ipynb: This notebook shows how to extract token transfers from a JSON/RPC endpoint, parsing with web3py and performing a very basic analysis of entities participating multiple times in an airdrop, inspired from our study on [Address Clustering Heuristics for Ethereum](https://www.researchgate.net/profile/Friedhelm-Victor/publication/341078202_Address_Clustering_Heuristics_for_Ethereum/links/5eb2751492851cbf7fa94b12/Address-Clustering-Heuristics-for-Ethereum.pdf).
+
+** 05_NFT_wash_trading.ipynb: This notebook shows how to extract NFT transfers and sales performed on OpenSea on the Ethereum blockchain. We visualize a small example that appears to be NFT wash trading.
+
+** 06_Working_with_ethereum_etl_data.ipynb: This notebook shows how to work with multiple CSV files as extracted with `ethereum-etl`, extract token transfers and allow for analyses that exceed the available RAM.
 
 # Slides and Recording
 
-Slides and a recording of the tutorial are available at ... 
+Slides are available:
 
-# Notebooks
+1.  [Cryptoassets and Blockchain 101](https://tubcloud.tu-berlin.de/s/Pbb8pPeCZK52CBZ)
+2. [Analyzing UTXO Ledgers](https://tubcloud.tu-berlin.de/s/jntdZCwWFdty9sH)
+3. [Analyzing Account Ledgers](https://tubcloud.tu-berlin.de/s/Xsb24ybYRo2oQdZ)
+4. [Outlook](https://tubcloud.tu-berlin.de/s/98T8rHFGki5JoCZ)
+
+A recording will be available after the conference.
+
+# Notebook preparation
 
 The tutorial will make use of several notebooks, which are available in this repository.
 You can run the notebooks locally, as follows:
 
-Setup a Python environment:
+Setup a Python environment with [Anaconda](https://www.anaconda.com/products/distribution):
 
     conda env create -f environment.yml
     conda activate caa-tutorial
 
-For notebooks 4-5 you need to install the [GraphSense Python library](https://github.com/graphsense/graphsense-python).
+For notebooks 1-2 you need to install the [GraphSense Python library](https://github.com/graphsense/graphsense-python).
 
     git clone git@github.com:graphsense/graphsense-python.git
     cd graphsense-python
     python setup.py install
-    
+
 Copy the config temp file and enter your GraphSense API key
 
     cp config.json.tmp config.json
